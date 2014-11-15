@@ -5,3 +5,4 @@ pickyvenv
 .DS_Store
 config/local
 pickydb
+staticfiles
