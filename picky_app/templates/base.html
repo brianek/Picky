@@ -18,9 +18,11 @@
 	<link rel="stylesheet" href="/static/styles/main.81ad88a9.css">
 </head>
 <body class>
-	<div class="fullscreen-container" ng-class="{'menu-site-nav-open': navbar.show['site'],
-	'menu-filters-open': navbar.show['filters'],
-	'menu-history-open': navbar.show['history']}"> <div class="menu-pusher" id="menu-pusher" click-to-close-menu=""> <div id="main"> <!-- uiView:  --><div ui-view="" id="primary-ui-view" class="ng-scope"><!-- uiView: undefined --><ui-view class="ng-scope"><!-- <link href="{{ url_for('trending_articles_feed') }}" rel="alternate" title="WindowShopper - Trending Posts" type="application/atom+xml"> --> <div ng-controller="BrowseCtrl" id="browse-wrapper" class="ng-scope">
+	<div class="fullscreen-container" ng-class="{'menu-site-nav-open': navbar.show['site']}"> 
+	<div class="menu-pusher" id="menu-pusher" click-to-close-menu=""> 
+	<div id="main"> <!-- uiView:  -->
+	<div ui-view="" id="primary-ui-view" class="ng-scope"><!-- uiView: undefined --><ui-view class="ng-scope">
+	<div ng-controller="BrowseCtrl" id="browse-wrapper" class="ng-scope">
 
 	<!--  we go through this, items are main pictures -->
 	<items>
