@@ -1,0 +1,1 @@
+web: python manage.py collectstatic --noinput; gunicorn picky_project.wsgi --log-file -
