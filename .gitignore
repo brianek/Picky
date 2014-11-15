@@ -4,3 +4,4 @@ pickyvenv
 *.pyc
 .DS_Store
 config/local
+pickydb
